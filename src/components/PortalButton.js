@@ -2,10 +2,10 @@ import React from 'react';
 import  ReactDOM  from 'react-dom';
 
 //complete this function using portals
-const PortalButton=()=>{
+const PortalButton=({buttonclick})=>{
     return (
-        <div>
-            <button id="button" onClick={}>Click</button>
+        <div id="portal-button">
+            <button id="button" onClick={buttonclick}>Click</button>
         </div>
         
     )
